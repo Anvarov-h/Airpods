@@ -1,0 +1,302 @@
+@media(max-width:1240px) {
+  .phones__content {
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 80px;
+  }
+
+  .phone__item {
+    max-width: 500px;
+  }
+
+  .about__bottom {
+    column-gap: 50px;
+    justify-content: center;
+  }
+
+
+  .about__bottom-text {
+    width: 480px;
+  }
+}
+
+@media(max-width:1145px) {
+  .phone__item {
+    max-width: 460px;
+  }
+
+  .about__top-img {
+    width: 50%;
+  }
+}
+
+@media (max-width:1045px) {
+  .phone__item {
+    max-width: 400px;
+  }
+
+
+  .about__bottom-text {
+    width: 370px;
+  }
+
+  .header__content {
+    height: 640px;
+  }
+}
+
+@media (max-width:910px) {
+  .header__content {
+    height: 550px;
+  }
+
+  .phone__item {
+    max-width: 335px;
+  }
+
+  .about__top-text {
+    width: 60%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .about__top {
+    flex-direction: column;
+  }
+
+  .about__top-img {
+    margin-bottom: 40px;
+  }
+
+  .about__bottom {
+    flex-direction: column-reverse;
+  }
+
+  .about__bottom-text {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .design__content {
+    flex-direction: column;
+  }
+
+  .design__span {
+    transform: rotate(90deg);
+    margin: 40px 0;
+    height: 3px;
+  }
+
+  .design__text {
+    text-align: center;
+  }
+
+  .design__text:nth-of-type(1) {
+    text-align: center;
+  }
+}
+
+@media (max-width:780px) {
+  .header__content {
+    height: 445px;
+  }
+
+  .header__title {
+    font-size: 70px;
+    margin-bottom: 23px;
+  }
+
+  .about__top-text {
+    font-size: 20px;
+  }
+
+  .about__bottom-text {
+    font-size: 20px;
+  }
+
+  .phone__item {
+    max-width: 255px;
+  }
+
+  .footer__content {
+    padding: 25px 0;
+  }
+}
+
+@media (max-width:620px) {
+  .header__content {
+    height: 370px;
+  }
+
+  .design__img {
+    width: 30%;
+  }
+
+  .about__bottom-img {
+    width: 70%;
+  }
+}
+
+@media (max-width:620px) {
+  .phones__content {
+    column-gap: 15px;
+  }
+
+  .footer__list {
+    flex-direction: column;
+    row-gap: 5px;
+  }
+}
+
+@media (max-width: 555px) {
+  .header__title {
+    font-size: 55px;
+    margin-bottom: 12px;
+  }
+
+  .about__top-text {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .about__bottom-text {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .nav__list-page {
+    position: fixed;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(15px);
+    background: #ffffff18;
+    box-shadow: 1px 4px 20px 2px rgb(247, 243, 243);
+    z-index: 999;
+    width: 50%;
+    height: 100%;
+    padding-top: 30px;
+    transform: translateX(-120%);
+    transition: 0.5s linear;
+  }
+
+  .nav__link-page {
+    color: #fff;
+  }
+
+  .menu-btn {
+    display: block;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 19px;
+    width: 80px;
+    padding: 3px 0;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+
+  .menu-btn:focus+.nav__list-page {
+    transform: translateX(0);
+  }
+
+  .header__title {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+
+  .header__btn {
+    width: 170px;
+    font-size: 17px;
+    line-height: 13px;
+  }
+
+  .footer__list-cards {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .about__top-text {
+    font-size: 16px;
+    line-height: 24px;
+    width: 70%;
+  }
+
+  .about__bottom-text {
+    font-size: 16px;
+    line-height: 24px;
+    width: 70%;
+  }
+
+  .header__content {
+    height: 270px;
+  }
+
+  .footer__link-cards>img {
+    width: 70%;
+  }
+
+  .footer__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .nav__list {
+    column-gap: 18px;
+  }
+
+  .about__top-text {
+    font-size: 16px;
+    line-height: 20px;
+    width: 90%;
+  }
+
+  .about__bottom-text {
+    font-size: 16px;
+    line-height: 20px;
+    width: 90%;
+  }
+
+  .design__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer__link {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .nav__content-start {
+    column-gap: 10px;
+  }
+
+  .menu-btn {
+    width: 65px;
+    font-size: 16px;
+  }
+
+  .header__title {
+    line-height: 45px;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .header__btn {
+    padding: 8px 0;
+    width: 160px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .footer__content {
+    padding: 15px 0;
+  }
+}
